@@ -1,0 +1,610 @@
+[
+    {
+        "nome": "Aboleth",
+        "tipo": "Monstro",
+        "nivel": 8,
+        "XP": 5900,
+        "pericias": {
+            "Percepcao": "+9",
+            "Intimidacao": "+7"
+        },
+        "atributos": {
+            "Forca": "21 (+5)",
+            "Destreza": "9 (-1)",
+            "Constituicao": "18 (+4)",
+            "Inteligencia": "18 (+4)",
+            "Sabedoria": "15 (+2)",
+            "Carisma": "18 (+4)"
+        },
+        "defesas": {
+            "CA": 17,
+            "PVs": "135 (18d12 + 36)",
+            "Resistencia": "psionica",
+            "Imunidade": "enfeitiçar, doença",
+            "Vulnerabilidade": "luz do dia"
+        },
+        "ataques_especiais": {
+            "Mordida": "+9 para atingir, 2d10+5 de dano",
+            "Erupcao mucosa": "Uma vez por turno, o Aboleth pode expelir uma onda de mucosa num raio de 9 metros, causando 17 (5d6) de dano e cegando as"
+        },
+        "itens": []
+    },
+    {
+        "nome": "Acolyte",
+        "tipo": "Monstro",
+        "nivel": 1,
+        "XP": 50,
+        "pericias": {
+            "Conhecimento (religião)": "+2"
+        },
+        "atributos": {
+            "Forca": "10 (+0)",
+            "Destreza": "10 (+0)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "13 (+1)",
+            "Carisma": "11 (+0)"
+        },
+        "defesas": {
+            "CA": 10,
+            "PVs": "9 (2d8)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": "nenhum",
+        "itens": [
+            "1 mãe de santo ou outro item sagrado",
+            "uma pequena quantidade de moedas"
+        ]
+    },
+    {
+        "nome": "Bandit",
+        "tipo": "Monstro",
+        "nivel": 1/8,
+        "XP": 25,
+        "pericias": {
+            "Furtar": "+2",
+            "Sobrevivência": "+2"
+        },
+        "atributos": {
+            "Forca": "11 (+0)",
+            "Destreza": "12 (+1)",
+            "Constituicao": "12 (+1)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "10 (+0)",
+            "Carisma": "10 (+0)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "11 (2d8 + 2)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Ataque com arma": "+3 para atingir, 1d6+1 de dano"
+        },
+        "itens": [
+            "uma arma simples (escolhida pelo jogador)",
+            "armadura leve (escolhida pelo jogador)",
+            "uma pequena quantidade de moedas"
+        ]
+    },
+    {
+        "nome": "Blink Dog",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 100,
+        "pericias": {
+            "Percepção": "+4",
+            "Sobrevivência": "+4"
+        },
+        "atributos": {
+            "Forca": "12 (+1)",
+            "Destreza": "17 (+3)",
+            "Constituicao": "12 (+1)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "10 (+0)"
+        },
+        "defesas": {
+            "CA": 13,
+            "PVs": "22 (5d8)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Piscar": "O Cão Pisca-Pisca pode se teletransportar até 9 metros em uma direção escolhida, como ação livre.",
+            "Mordida": "+5 para atingir, 1d6+3 de dano"
+        },
+        "itens": []
+    },
+    {
+        "nome": "Bugbear",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 200,
+        "pericias": {
+            "Furtar": "+4",
+            "Sobrevivência": "+2"
+        },
+        "atributos": {
+            "Forca": "16 (+3)",
+            "Destreza": "14 (+2)",
+            "Constituicao": "16 (+3)",
+            "Inteligencia": "8 (-1)",
+            "Sabedoria": "11 (+0)",
+            "Carisma": "9 (-1)"
+        },
+        "defesas": {
+            "CA": 16,
+            "PVs": "27 (5d8 + 5)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Ataque com arma": "+5 para atingir, 1d8+3 de dano",
+            "Susto": "O Bugbear pode fazer um ataque de surpresa com +5 para atingir, causando 1d6 de dano adicional se atingir."
+        },
+        "itens": [
+            "1 arma (escolhida pelo jogador)",
+            "1 armadura (escolhida pelo jogador)"
+        ]
+    },
+    {
+        "nome": "Centaur",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 450,
+        "pericias": {
+            "Cura": "+4",
+            "Sobrevivência": "+4"
+        },
+        "atributos": {
+            "Forca": "18 (+4)",
+            "Destreza": "14 (+2)",
+            "Constituicao": "14 (+2)",
+            "Inteligencia": "9 (-1)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "11 (+0)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "45 (6d10 + 12)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Ataque com arma": "+6 para atingir, 1d8+4 de dano",
+            "Chifre": "+6 para atingir, 1d6+4 de dano"
+        },
+        "itens": []
+    },
+    {
+        "nome": "Cultist",
+        "tipo": "Monstro",
+        "nivel": 1/8,
+        "XP": 50,
+        "pericias": {
+            "Conhecimento (religião)": "+2",
+            "Intimidação": "+2"
+        },
+        "atributos": {
+            "Forca": "8 (-1)",
+            "Destreza": "10 (+0)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "10 (+0)"
+        },
+        "defesas": {
+            "CA": 10,
+            "PVs": "9 (2d8)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": "nenhum",
+        "itens": [
+            "uma arma simples (escolhida pelo jogador)",
+            "uma roupa rústica ou túnica",
+            "uma pequena quantidade de moedas"
+        ]
+    },
+    {
+        "nome": "Darkmantle",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 100,
+        "pericias": {
+            "Esconder-se": "+4",
+            "Percepção": "+4"
+        },
+        "atributos": {
+            "Forca": "5 (-3)",
+            "Destreza": "12 (+1)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "2 (-4)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "3 (-4)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "22 (5d8)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Ataque à distância": "+3 para atingir, 1d8+1 de dano",
+            "Engolfar": "O escuridão pode engolfar uma criatura pequena ou menor que estiver a menos de 1,5 metro, causando 2d6 de dano por rodada enquanto a criatura estiver engolfada."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Death Dog",
+        "tipo": "Monstro",
+        "nivel": 1/8,
+        "XP": 50,
+        "pericias": {
+            "Percepção": "+4",
+            "Sobrevivência": "+4"
+        },
+        "atributos": {
+            "Forca": "12 (+1)",
+            "Destreza": "14 (+2)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "3 (-4)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "6 (-2)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "45 (6d8 + 12)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Mordida": "+4 para atingir, 1d6+2 de dano"
+        },
+        "itens": []
+    },
+    {
+        "nome": "Deer",
+        "tipo": "Monstro",
+        "nivel": 0,
+        "XP": 10,
+        "pericias": {
+            "Fuga": "+4",
+            "Percepção": "+2"
+        },
+        "atributos": {
+            "Forca": "2 (-4)",
+            "Destreza": "16 (+3)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "2 (-4)",
+            "Sabedoria": "14 (+2)",
+            "Carisma": "5 (-3)"
+        },
+        "defesas": {
+            "CA": 10,
+            "PVs": "4 (1d8)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": "nenhum",
+        "itens": []
+    },
+    {
+        "nome": "Quasit",
+        "tipo": "Monstro (Demônio)",
+        "nivel": 3,
+        "XP": 200,
+        "pericias": {
+            "Furtar": "+6",
+            "Intimidação": "+4"
+        },
+        "atributos": {
+            "Forca": "6 (-2)",
+            "Destreza": "17 (+3)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "7 (-2)",
+            "Sabedoria": "10 (+0)",
+            "Carisma": "10 (+0)"
+        },
+        "defesas": {
+            "CA": 13,
+            "PVs": "7 (2d6)",
+            "Resistência": "à fogo, à veneno",
+            "Imunidade": "à doenças",
+            "Vulnerabilidade": "à luz do dia"
+        },
+        "ataques_especiais": {
+            "Mordida": "+5 para atingir, 1d4+3 de dano",
+            "Mudar de forma": "O Quasit pode se transformar em uma criatura pequena ou menor como ação livre.",
+            "Toque venenoso": "O Quasit pode injetar veneno ao tocar uma criatura, causando 7 (2d6) de dano venenoso."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Lemure",
+        "tipo": "Monstro (Diabo)",
+        "nivel": 2,
+        "XP": 100,
+        "pericias": {
+            "Intimidação": "+2"
+        },
+        "atributos": {
+            "Forca": "6 (-2)",
+            "Destreza": "10 (+0)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "3 (-4)",
+            "Sabedoria": "6 (-2)",
+            "Carisma": "5 (-3)"
+        },
+        "defesas": {
+            "CA": 10,
+            "PVs": "13 (3d8)",
+            "Resistência": "à fogo",
+            "Imunidade": "à doenças",
+            "Vulnerabilidade": "à luz do dia"
+        },
+        "ataques_especiais": {
+            "Mordida": "+2 para atingir, 1d6-2 de dano",
+            "Toque infernal": "O Lemure pode causar 7 (2d6) de dano infernal ao tocar uma criatura."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Dryad",
+        "tipo": "Monstro",
+        "nivel": 4,
+        "XP": 450,
+        "pericias": {
+            "Conhecimento (natureza)": "+6",
+            "Persuasão": "+4"
+        },
+        "atributos": {
+            "Forca": "6 (-2)",
+            "Destreza": "18 (+4)",
+            "Constituicao": "12 (+1)",
+            "Inteligencia": "14 (+2)",
+            "Sabedoria": "16 (+3)",
+            "Carisma": "18 (+4)"
+        },
+        "defesas": {
+            "CA": 14,
+            "PVs": "22 (5d8)",
+            "Imunidade": "à veneno, à doenças",
+            "Vulnerabilidade": "à ferro"
+        },
+        "ataques_especiais": {
+            "Ataque à distância": "+6 para atingir, 1d6+4 de dano",
+            "Controlar plantas": "A Dryade pode controlar plantas em uma área de até 9 metros ao redor dela."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Duergar",
+        "tipo": "Monstro",
+        "nivel": 3,
+        "XP": 200,
+        "pericias": {
+            "Furtar": "+4",
+            "Sobrevivência": "+2"
+        },
+        "atributos": {
+            "Forca": "14 (+2)",
+            "Destreza": "10 (+0)",
+            "Constituicao": "14 (+2)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "8 (-1)",
+            "Carisma": "8 (-1)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "26 (4d8 + 8)",
+            "Imunidade": "à enfeitiçar",
+            "Vulnerabilidade": "à luz forte"
+        },
+        "ataques_especiais": {
+            "Ataque com arma": "+4 para atingir, 1d8+2 de dano",
+            "Visão no escuro": "O Duergar pode enxergar no escuro até 18 metros."
+        },
+        "itens": [
+            "Escolha de uma arma simples ou escolha de uma arma de duas mãos",
+            "Escolha de armadura leve ou pesada",
+            "uma pequena quantidade de moedas"
+        ]
+    },
+    {
+        "nome": "Dust Mephit",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 100,
+        "pericias": {
+            "Enganação": "+4",
+            "Furtar": "+4"
+        },
+        "atributos": {
+            "Forca": "5 (-3)",
+            "Destreza": "14 (+2)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "11 (+0)",
+            "Carisma": "12 (+1)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "17 (5d6)",
+            "Imunidade": "à veneno",
+            "Vulnerabilidade": "à água"
+        },
+        "ataques_especiais": {
+            "Ataque à distância": "+4 para atingir, 1d6+2 de dano",
+            "Nuvem de pó": "O Mephit de Pó pode criar uma nuvem de pó em um raio de 9 metros ao redor dele, causando cegueira por 1 minuto."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Ettin",
+        "tipo": "Monstro",
+        "nivel": 4,
+        "XP": 450,
+        "pericias": {
+            "Força": "+6",
+            "Sobrevivência": "+4"
+        },
+        "atributos": {
+            "Forca": "18 (+4)",
+            "Destreza": "8 (-1)",
+            "Constituicao": "16 (+3)",
+            "Inteligencia": "6 (-2)",
+            "Sabedoria": "8 (-1)",
+            "Carisma": "6 (-2)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "85 (10d10 + 30)",
+            "Imunidade": "nenhuma"
+        },
+        "ataques_especiais": {
+            "Ataque com arma (duas vezes por turno)": "+6 para atingir, 1d8+4 de dano",
+            "Visão no escuro": "O Ettin pode enxergar no escuro até 18 metros."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Fire Snake",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 100,
+        "pericias": {
+            "Furtar": "+4",
+            "Sobrevivência": "+4"
+        },
+        "atributos": {
+            "Forca": "10 (+0)",
+            "Destreza": "18 (+4)",
+            "Constituicao": "12 (+1)",
+            "Inteligencia": "2 (-4)",
+            "Sabedoria": "10 (+0)",
+            "Carisma": "3 (-4)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "22 (5d8)",
+            "Imunidade": "à fogo",
+            "Vulnerabilidade": "à água"
+        },
+        "ataques_especiais": {
+            "Mordida": "+4 para atingir, 1d6+2 de dano",
+            "Fogo": "A Cobra de Fogo pode cuspir fogo, causando 2d6 de dano à uma criatura dentro de um raio de 9 metros."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Flumph",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 100,
+        "pericias": {
+            "Conhecimento (arcana)": "+4",
+            "Percepção": "+4"
+        },
+        "atributos": {
+            "Forca": "6 (-2)",
+            "Destreza": "14 (+2)",
+            "Constituicao": "12 (+1)",
+            "Inteligencia": "10 (+0)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "8 (-1)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "22 (5d8)",
+            "Imunidade": "à veneno",
+            "Vulnerabilidade": "à água"
+        },
+        "ataques_especiais": {
+            "Mordida": "+4 para atingir, 1d6+2 de dano",
+            "Ray of Fear": "O Flumph pode disparar um raio de medo, causando 7 (2d6) de dano psíquico."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Flying Sword",
+        "tipo": "Monstro",
+        "nivel": 1/8,
+        "XP": 50,
+        "pericias": {
+            "Percepção": "+2"
+        },
+        "atributos": {
+            "Forca": "12 (+1)",
+            "Destreza": "16 (+3)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "6 (-2)",
+            "Sabedoria": "8 (-1)",
+            "Carisma": "3 (-4)"
+        },
+        "defesas": {
+            "CA": 13,
+            "PVs": "17 (5d6)",
+            "Imunidade": "à veneno, à doenças",
+            "Vulnerabilidade": "à água"
+        },
+        "ataques_especiais": {
+            "Ataque com arma": "+5 para atingir, 1d8+3 de dano",
+            "Voo": "A Espada Voadora pode voar a uma velocidade de até 36 metros por rodada."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Ghoul",
+        "tipo": "Monstro",
+        "nivel": 2,
+        "XP": 150,
+        "pericias": {
+            "Intimidação": "+2",
+            "Sobrevivência": "+2"
+        },
+        "atributos": {
+            "Forca": "13 (+1)",
+            "Destreza": "15 (+2)",
+            "Constituicao": "10 (+0)",
+            "Inteligencia": "7 (-2)",
+            "Sabedoria": "10 (+0)",
+            "Carisma": "6 (-2)"
+        },
+        "defesas": {
+            "CA": 12,
+            "PVs": "22 (5d8)",
+            "Imunidade": "à doenças"
+        },
+        "ataques_especiais": {
+            "Mordida": "+4 para atingir, 1d6+2 de dano",
+            "Paralisia": "As criaturas atingidas pela mordida de um ghoul ficam paralisadas por 1 minuto."
+        },
+        "itens": []
+    },
+    {
+        "nome": "Djinni",
+        "tipo": "Monstro (Criatura Elemental do Ar)",
+        "nivel": 8,
+        "XP": 1700,
+        "pericias": {
+            "Intimidação": "+7",
+            "Persuasão": "+7"
+        },
+        "atributos": {
+            "Forca": "10 (+0)",
+            "Destreza": "20 (+5)",
+            "Constituicao": "14 (+2)",
+            "Inteligencia": "15 (+2)",
+            "Sabedoria": "12 (+1)",
+            "Carisma": "16 (+3)"
+        },
+        "defesas": {
+            "CA": 17,
+            "PVs": "161 (14d12 + 70)",
+            "Imunidade": "à veneno, à doenças",
+            "Vulnerabilidade": "à água"
+        },
+        "ataques_especiais": {
+            "Ataque com arma": "+8 para atingir, 2d6+5 de dano",
+            "Tempestade": "O Djinni pode criar uma tempestade em uma área de até 36 metros, causando ventos fortes e raios.",
+            "Voo": "O Djinni pode voar a uma velocidade de até 90 metros por rodada.",
+            "Grant Wish": "O Djinni pode conceder um desejo a uma criatura, mas sempre com um preço ou condição."
+        },
+        "itens": []
+    }
+]

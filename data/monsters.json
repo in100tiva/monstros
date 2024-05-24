@@ -59,7 +59,7 @@
     {
         "nome": "Bandit",
         "tipo": "Monstro",
-        "nivel": 1/8,
+        "nivel": 1.8,
         "XP": 25,
         "pericias": {
             "Furtar": "+2",
@@ -177,7 +177,7 @@
     {
         "nome": "Cultist",
         "tipo": "Monstro",
-        "nivel": 1/8,
+        "nivel": 1.8,
         "XP": 50,
         "pericias": {
             "Conhecimento (religião)": "+2",
@@ -234,7 +234,7 @@
     {
         "nome": "Death Dog",
         "tipo": "Monstro",
-        "nivel": 1/8,
+        "nivel": 1.8,
         "XP": 50,
         "pericias": {
             "Percepção": "+4",
@@ -523,7 +523,7 @@
     {
         "nome": "Flying Sword",
         "tipo": "Monstro",
-        "nivel": 1/8,
+        "nivel": 1.8,
         "XP": 50,
         "pericias": {
             "Percepção": "+2"

@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monsters App</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Inclui jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Monsters Filter</h1>
+        <!-- Campo de busca para filtrar monstros -->
         <input type="text" id="searchInput" placeholder="Search for a monster..." onkeyup="filterMonsters()">
+        <!-- Botão para exibir monstros favoritos -->
+        <button id="favoriteFilter">Show Favorites</button>
+        <!-- Contêiner para exibir os monstros -->
         <div id="monstersContainer"></div>
+        <!-- Contêiner para paginação -->
+        <div id="paginationContainer" class="pagination"></div>
     </div>
-    <script src="js/script.js"></script>
+    <!-- Inclui o script principal da aplicação -->
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
